@@ -1,0 +1,66 @@
+
+
+
+
+
+
+
+
+/* style.css */
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(190, 125, 125);
+    font-family: Arial, sans-serif;
+}
+
+
+#gameArea {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background-color: #70C5CE;
+    overflow: hidden;
+    border: 2px solid white;
+}
+
+
+#bird {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(172, 172, 34);
+    border-radius: 50%;
+    top: 50%;
+    left: 50px;
+}
+
+
+.pipe {
+    position: absolute;
+    width: 60px; /* Set a consistent width */
+    background-color: #228B22; /* Solid green color for pipes */
+    border: 2px solid #004d00; /* Optional: border to make it more visible */
+    box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
+}
+
+
+#scoreboard {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white; /* Adjust color as needed */
+    font-size: 20px;
+    z-index: 100; /* Adjust font size as needed */
+}
+
+
+
+
+
